@@ -167,7 +167,7 @@ Blockchain developers are responsible for building, maintaining, and enhancing b
 
 - **Skills Required:**
   - **Programming Languages:** Developers typically use languages such as Solidity (for Ethereum smart contracts), Motoko(for ICP), Rust (for Web3 applications), JavaScript, Python, and Go.
-    ![Programming languages](Assets/Programming-languages-in-blockchain-industry.png.png )
+    ![Programming languages](Assets/Programming-languages-in-blockchain-industry.png )
 
   - **Blockchain Platforms:** Familiarity with platforms like Ethereum, ICP, Binance Smart Chain, and Hyperledger Fabric is essential.
   - **Cryptography:** Knowledge of cryptographic principles, such as hashing, digital signatures, and encryption, is crucial for ensuring the security of blockchain networks.
@@ -204,7 +204,7 @@ These applications show how blockchain is revolutionizing industries by offering
 
 
 # Chapter 4: Public & Private Blockchain
-![Types of Blockchain](https://www.google.com/imgres?q=types%20of%20blockchain%20technology&imgurl=https%3A%2F%2Fwww.simplilearn.com%2Fice9%2Ffree_resources_article_thumb%2FTypes_of_Blockchain_4.png&imgrefurl=https%3A%2F%2Fwww.simplilearn.com%2Ftutorials%2Fblockchain-tutorial%2Ftypes-of-blockchain&docid=CdjYZPxrQaFtdM&tbnid=Aw4GW5ncA6aeLM&vet=12ahUKEwjo6cGtw42LAxWnRKQEHVwNEZcQM3oECBUQAA..i&w=512&h=367&hcb=2&ved=2ahUKEwjo6cGtw42LAxWnRKQEHVwNEZcQM3oECBUQAA)
+![Types of Blockchain](Assets/Typesofblockchain.jpeg)
 
 
 ## 4.1 Public Blockchain
