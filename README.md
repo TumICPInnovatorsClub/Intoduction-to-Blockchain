@@ -22,14 +22,22 @@ All transactions on a blockchain are visible to participants in the network. Thi
 The terms "block" and "chain" describe the core structure of the technology:
 
 ### Explanation of "Block"
+![Block Diagram](Assets/Block-diagram.png "Block Diagram")
+
 A block is a container for data. In the context of blockchain, it holds transaction details such as sender, receiver, amount, and timestamp.
 
 Each block also contains a unique identifier called a "hash" and the hash of the previous block, forming a chain of blocks.
 
 ### Explanation of "Chain"
+![Block Chaining](Assets/Block-chaining.png "Block chaining")
+
+
 The chain represents the sequential linkage of blocks. When a new block is created, it references the hash of the previous block, creating a continuous, secure chain.
 
 ### How Blocks are Linked
+![How blocks are linked](Assets/Structureofblocksinblockchain.png "Structure of blocks in blockchain")
+
+
 - **Cryptographic Hashing:** Each block is secured with a cryptographic hash, a unique identifier generated from its contents.
 - **Previous Block Hash:** Every block contains the hash of the preceding block, which establishes a connection between them.
 - **Consensus Mechanism:** Nodes in the blockchain network agree on the validity of a new block through consensus algorithms like Proof of Work (PoW) or Proof of Stake (PoS).
@@ -64,6 +72,8 @@ Blockchain technology has evolved beyond its initial use case of supporting cryp
 ## 2.2 Different Types of Blockchain Technologies
 
 ### Bitcoin: Overview and Applications
+![Bitcoin](Assets/Bitcoin.jpeg "Bitcoin")
+
 
 Bitcoin is the first and most well-known blockchain technology, designed as a decentralized digital currency. It operates on a peer-to-peer network where transactions are validated by miners using a consensus mechanism called Proof of Work (PoW). Bitcoin’s blockchain is public and transparent, allowing anyone to participate and view the transaction history.
 
@@ -113,6 +123,9 @@ By understanding the various blockchain technologies and their applications, bus
 ## 3.1 Blockchain Exchanges
 
 ### How Exchanges Work
+![Bitcoin exchange](Assets/how-bitcoin-blockchain-works.png "Block Diagram")
+
+
 Blockchain exchanges are digital platforms that facilitate the buying, selling, and trading of cryptocurrencies and other blockchain-based assets. These exchanges function as intermediaries, connecting buyers and sellers. There are two primary types of blockchain exchanges: centralized exchanges (CEX) and decentralized exchanges (DEX).
 
 - **Centralized Exchanges (CEX):** In centralized exchanges, a central authority controls the platform. Users trust the exchange with their funds and transactions. Popular examples include Coinbase, Binance, and Kraken. These exchanges offer high liquidity and a user-friendly interface but introduce a single point of failure.
@@ -139,6 +152,9 @@ Blockchain miners play a critical role in maintaining the security and integrity
 - **Network Security:** By solving complex cryptographic puzzles, miners secure the network against attacks, such as double-spending and other fraudulent activities.
 
 ### Mining Process
+![Bitcoin Mining](Assets/Bitcoin-mining.png )
+
+
 - **Proof of Work (PoW):** In PoW-based systems like Bitcoin, miners must solve computationally intensive cryptographic puzzles. The first miner to solve the puzzle gets to add the new block to the blockchain and is rewarded with newly minted cryptocurrency (block rewards).
 - **Mining Pool:** Since individual mining efforts can be resource-intensive, many miners join mining pools to combine their computational power, increasing their chances of successfully mining a block and sharing the reward.
   
@@ -151,6 +167,8 @@ Blockchain developers are responsible for building, maintaining, and enhancing b
 
 - **Skills Required:**
   - **Programming Languages:** Developers typically use languages such as Solidity (for Ethereum smart contracts), Motoko(for ICP), Rust (for Web3 applications), JavaScript, Python, and Go.
+    ![Programming languages](Assets/Programming-languages-in-blockchain-industry.png.png )
+
   - **Blockchain Platforms:** Familiarity with platforms like Ethereum, ICP, Binance Smart Chain, and Hyperledger Fabric is essential.
   - **Cryptography:** Knowledge of cryptographic principles, such as hashing, digital signatures, and encryption, is crucial for ensuring the security of blockchain networks.
   - **Consensus Algorithms:** Understanding of consensus mechanisms like Proof of Work (PoW), Proof of Stake (PoS), and Delegated Proof of Stake (DPoS) is important for designing efficient and secure blockchain networks.
@@ -164,6 +182,8 @@ Blockchain developers contribute to the ecosystem by:
 Developers are at the heart of blockchain innovation, building the technologies and applications that drive adoption and shape the future of decentralized systems.
 
 ## 3.4 Blockchain Applications
+![Applications-of-blockchain](Assets/Applications-of-blockchain.jpeg )
+
 
 ### Examples and Real-World Impact
 Blockchain technology has expanded beyond cryptocurrencies and is being implemented in various industries, transforming business operations and creating new opportunities. Here are some notable applications:
@@ -184,6 +204,8 @@ These applications show how blockchain is revolutionizing industries by offering
 
 
 # Chapter 4: Public & Private Blockchain
+![Types of Blockchain](https://www.google.com/imgres?q=types%20of%20blockchain%20technology&imgurl=https%3A%2F%2Fwww.simplilearn.com%2Fice9%2Ffree_resources_article_thumb%2FTypes_of_Blockchain_4.png&imgrefurl=https%3A%2F%2Fwww.simplilearn.com%2Ftutorials%2Fblockchain-tutorial%2Ftypes-of-blockchain&docid=CdjYZPxrQaFtdM&tbnid=Aw4GW5ncA6aeLM&vet=12ahUKEwjo6cGtw42LAxWnRKQEHVwNEZcQM3oECBUQAA..i&w=512&h=367&hcb=2&ved=2ahUKEwjo6cGtw42LAxWnRKQEHVwNEZcQM3oECBUQAA)
+
 
 ## 4.1 Public Blockchain
 
@@ -294,6 +316,8 @@ Through the synergy between Bitcoin and blockchain, a new paradigm of financial 
 # Chapter 6: A P2P Network
 
 ## 6.1 Why is it Called a P2P Network?
+![P2P network](Assets/P2P-network.png )
+
 
 ### Peer-to-Peer Networking Explained
 A **Peer-to-Peer (P2P)** network is a type of decentralized communication model where each participant (or **node**) has equal privileges and responsibilities. Unlike client-server models where clients rely on a central server to access resources, in a P2P network, every node (or peer) can act both as a client and a server, sharing resources and communicating directly with other nodes.
@@ -341,7 +365,9 @@ The use of a P2P network in blockchain technology brings several key advantages 
 P2P networking is the foundation that enables blockchain to function in a decentralized manner, making it a powerful tool for applications that require security, transparency, and trust.
 
 
-# Chapter 7: Blockchain Use Cases
+# Chapter 7: Blockchain Use 
+![Applications-of-blockchain](Assets/Applications-of-blockchain.jpeg)
+
 
 ## 7.1 Introduction
 
